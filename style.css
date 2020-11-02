@@ -1,0 +1,81 @@
+/* generic styling for different elements of page */
+.navbar, body {
+    background-color: white;
+}
+
+.h1 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.row{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card-body, .card-block, ul {
+    text-align: center;
+    background-color: #CCDBFD;
+}
+
+.card {
+    border-style: solid;
+    border-color: #ABC4FF;
+}
+
+/* styling for UV ratings */
+
+.lowUV {
+    color: green;
+    font-weight: bolder;
+
+}
+
+.modUV {
+    color: yellow;
+    font-weight: bolder;
+
+}
+
+.highUV {
+    color: orange;
+    font-weight: bolder;
+
+}
+
+.veryHighUV {
+    color: red;
+    font-weight: bolder;
+
+}
+
+.extremeUV {
+    color: purple;
+    font-weight: bolder;
+
+}
+
+/*button styling for previous searched */
+
+.list-group-item {
+    font-size: 15px;
+    font-weight: bolder;
+    border-style: solid;
+    border-color: #ABC4FF;
+}
+
+/* styling for footer */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    background-color:  #CCDBFD;
+}
